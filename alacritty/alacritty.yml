@@ -1,6 +1,6 @@
 key_bindings:
   - { key: N,   mods: Control|Shift, action: SpawnNewInstance }
-  - { key: W,   mods: Control, action: Quit }
+#  - { key: W,   mods: Control, action: Quit }
 
 #scrolling:
 #  history: 0
