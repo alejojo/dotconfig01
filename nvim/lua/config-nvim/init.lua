@@ -24,3 +24,6 @@ set.relativenumber = true
 set.cursorline = true
 
 set.hidden = true
+set.completeopt = 'menuone,noselect'
+
+vim.notify = require("notify")

@@ -18,4 +18,17 @@ return require('packer').startup(function(use)
   use 'onsails/lspkind-nvim'     -- pictograms on VSStyle menu
   -- lsp-config
   use 'williamboman/mason.nvim'
+  use 'rcarriga/nvim-notify'
+  use 'nvim-lualine/lualine.nvim'
+  use 'romgrk/barbar.nvim'
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = {
+      'nvim-lua/plenary.nvim'
+    }
+  }
 end)
